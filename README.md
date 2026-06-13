@@ -1,7 +1,5 @@
 # Codex Neon Terminal Theme Backup
 
-Backup privado do tema de terminal criado localmente.
-
 ## Files
 
 - `Microsoft.PowerShell_profile.ps1`: PowerShell profile with the custom prompt, aliases, Git segment, and PSReadLine colors.
