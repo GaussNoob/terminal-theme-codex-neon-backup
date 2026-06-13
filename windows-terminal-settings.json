@@ -1,0 +1,148 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysShowTabs": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "initialCols": 128,
+    "initialRows": 36,
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "background": "#0A0F1C",
+            "bellStyle": "window",
+            "colorScheme": "Codex Neon",
+            "cursorColor": "#7DD3FC",
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "Cascadia Mono",
+                "size": 11.5,
+                "weight": "normal"
+            },
+            "intenseTextStyle": "bright",
+            "opacity": 90,
+            "padding": "12, 10, 12, 10",
+            "scrollbarState": "visible",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{38d67225-ad44-5320-942e-faab5d7aa308}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 18",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{02eff7f6-1266-5fd4-ba38-4c4a38c81094}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 18",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{1030dceb-8da6-5d2b-ba2e-c6527921fa12}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 18 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{fd47ac13-8602-5b9b-b8bd-6a33dbc20a9a}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 18 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#0A0F1C",
+            "black": "#0F172A",
+            "blue": "#60A5FA",
+            "brightBlack": "#475569",
+            "brightBlue": "#93C5FD",
+            "brightCyan": "#A5F3FC",
+            "brightGreen": "#86EFAC",
+            "brightPurple": "#DDD6FE",
+            "brightRed": "#FDA4AF",
+            "brightWhite": "#F8FAFC",
+            "brightYellow": "#FDE68A",
+            "cursorColor": "#7DD3FC",
+            "cyan": "#22D3EE",
+            "foreground": "#E2E8F0",
+            "green": "#4ADE80",
+            "name": "Codex Neon",
+            "purple": "#C4B5FD",
+            "red": "#FB7185",
+            "selectionBackground": "#1E3A5F",
+            "white": "#CBD5E1",
+            "yellow": "#FACC15"
+        }
+    ],
+    "themes": []
+}
