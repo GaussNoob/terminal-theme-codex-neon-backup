@@ -14,6 +14,6 @@ Run this from PowerShell:
 powershell.exe -ExecutionPolicy Bypass -File .\restore-theme.ps1
 ```
 
-![Image Terminal ]([https://google.com](https://github.com/...](https://raw.githubusercontent.com/...)))
+![Codex Neon Windows Terminal](https://raw.githubusercontent.com/GaussNoob/terminal-theme-codex-neon-backup/master/Screenshot%202026-07-28%20155430.png)
 
 Close and reopen Windows Terminal after restoring.
